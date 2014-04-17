@@ -1,0 +1,40 @@
+<div class="jumbotron">
+	<h1>Vital Sender</h1>
+	<form id="config" role="form">
+		<div class="form-group">
+			<label for="host_field">Servidor</label> <input type="text" name="host" value="{{config.user.host}}" id="host_field">
+		</div>
+		<div class="form-group">
+			<label for="resource_field">Recurso</label> <input type="text" name="resource" value="{{config.user.resource}}" id="resource_field"> 
+		</div>
+		<div class="form-group">	
+			<label for="file_field"></label>  <input type="file" name="file" id="file_field">
+		</div>
+		<!--
+		<div>
+			Imagenes: <input type="text"  name="img_dir">
+		</div>
+		-->
+
+		<!--<button type="" id="update" >Actualizar</button>-->
+		<input type="submit" class="btn btn-default"></input>	
+	</form>
+</div>
+
+<div>
+{{#if users}}
+	<h2>Lista de Usuarios: </h2>
+	<table class=" table table-striped">
+			{{#each users}}
+			<tr>
+				<td>{{content.nombre_madre}}</td>
+				<td>{{content.email_madre}} </td>
+				<td>{{content.email_hijo}} </td>
+				<td>{{content.latidos}} </td>
+			</tr>
+			{{/each}}
+	</table>
+{{else}}
+	<h2>No hay usuarios en la lista</h2>	
+{{/if}}
+</div>

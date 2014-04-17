@@ -1,0 +1,5 @@
+lola,lola@gmail.com,ramiro@mail.com,ramiro,lola.jpg,72
+manuela,manuela@gmail.com,genaro@mail.com,genaro,manuela.jpg,75
+daniela,daniela@gmail.com,andres@mail.com,andres,daniela.jpg,98
+andrea,andrea@gmail.com,julio@mail.com,julio,andrea.jpg,67
+ximena,ximena@gmail.com,juana@mail.com,juana,ximena.jpg,75
